@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.heatstrip.com.au/</title>
+  <description>ROR sitemap for http://www.heatstrip.com.au/</description>
+  <link>http://www.heatstrip.com.au/</link>
+
+<item>
+     <link>http://www.heatstrip.com.au/</link>
+     <title>Electric Indoor &amp; Outdoor Heaters Melbourne</title>
+     <description>Heatstrip is a range of stylish, energy-efficient electric heaters for indoor &amp; outdoor applications. Designed &amp; manufactured by Thermofilm in Melbourne.</description>
+     <ror:updatePeriod>day</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.heatstrip.com.au/classic</link>
+     <title>Electric Wall Panel Heaters | Heatstrip Classic</title>
+     <description>Heatstrip Classic is a premium range of stylish, high-intensity electric panel heaters. Perfect for heating large indoor spaces &amp; protected outdoor areas.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.heatstrip.com.au/max</link>
+     <title>Electric Outdoor Patio Heaters in Melbourne | Heatstrip</title>
+     <description>The Heatstrip Max is a range of high-intensity electric radiant heaters designed to excel in tough indoor &amp; fully exposed outdoor applications.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.heatstrip.com.au/indoor</link>
+     <title>Energy Efficient Electric Heaters | Heatstrip Indoor</title>
+     <description>Meet the Heatstrip Indoor THS-A Series; the best in energy efficient electric heaters. Ideal for a wide range of indoor applications.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.heatstrip.com.au/which-product-do-i-need</link>
+     <title>Make the Best Electric Heater Choice | Heatstrip</title>
+	 <description>Check out the ‘Which Product Do I Need?’ table for guidance on the best Heatstrip electric heater choice for your individual requirements.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.heatstrip.com.au/about-heatstrip</link>
+     <title>About HeatStrip | HeatStrip</title>
+     <description>Heatstrip is proudly manufactured by Thermofilm Australia Pty Ltd The Heatstrip range of electric radiant heaters is designed, engineered and assembled by Thermofilm Pty Ltd, based in Melbourne, Australia. Heatstrip is the brand for the range of market leading electric heaters by Thermofilm.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.heatstrip.com.au/heatstrip-controllers</link>
+     <title>Heatstrip Controllers | HeatStrip</title>
+     <description>The Heatstrip controller range consists of three (3) models designed to complement your heater in an indoor or outdoor application. The majority of the Heastrip heater range is supplied with a standard 10amp lead and plug, which you can simply "plug and go" in a normal domestic 10amp power point/GPO, without the need for an electrician. In this situation, you would turn the heater on &amp; off via the power point and the heater would automatically operate at maximum temperature.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://heatstrip.com.au/heatstrip-ses-kilmore</link>
+     <title>Heatstrip donation to support Kilmore SES | HeatStrip</title>
+     <description>Thermofilm greatly appreciates the hard and wonderful work of all the dedicated SES volunteers, who give up their time to assist and protect the community in times of emergency, this is in line with the Thermofilm &amp; SES core values of commitment, integrity and community focus. Our donation of Heatstrip Max heaters assists the Kilmore SES to operate in the large training room facility by providing a more comfortable heat in the cooler Victorian weather.</description>
+     <ror:updatePeriod>week</ror:updatePeriod>
+	 <ror:updated>2014-11-27</ror:updated>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>

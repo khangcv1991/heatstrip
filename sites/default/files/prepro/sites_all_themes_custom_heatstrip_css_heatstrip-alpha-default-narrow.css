@@ -1,0 +1,559 @@
+/*
+ * This file will hold styles that are loaded using the same media query as the narrow grid.
+ */
+/*
+ * If you are using the default media queries provided by Omega, these styles will also
+ * *  apply to the normal and widescreen layouts. You may override these styles in the normal
+ * *  and widescreen CSS files as appropriate.
+ */
+div #block-block-17 {
+  /* float: left; */
+  margin-right: 30% !important;
+}
+body {
+    /*
+   * FRONT
+   */
+    /*
+   * MENU
+   */
+    /*
+   * MENU
+   */
+    /*
+   * #zone-menu-wrapper {
+   * ul.nice-menu {
+   * li {
+   * a,
+   * span {
+   * padding:0 20px;
+   * font-size:12px;
+   * &:hover {
+   * font-size:12px;
+   * }
+   * }
+   * &.menu-233,
+   * &.menu-501,
+   * &.menu-523,
+   * &.menu-527,
+   * &.menu-531 {
+   * > a, > span {
+   * width:30px;
+   * }
+   * }
+   * &.menu-509,
+   * &.menu-515 {
+   * > a, > span {
+   * width:40px;
+   * }
+   * }
+   * &.menu-519 {
+   * > a, > span {
+   * width:92px;
+   * }
+   * }
+   * }
+   * }
+   * }
+   */
+    /*
+   * FOOTER
+   */
+    /*
+   * 2 Page Sidebar
+   */
+    /*
+   * 2 Page Sidebar
+   */
+    /*
+   * FAQS
+   */
+    /*
+   * TESTIMONIALS
+   */
+    /*
+   * TABLE - WHICH PRODUCT
+   */
+    /*
+   * PRODUCT
+   */
+    /*
+   * GALLERY
+   */
+    /*
+   * where to buy int
+   */
+    /*
+   * NEWS
+   */
+    /*
+   * PROJECTS
+   */
+    /*
+   * MEDIA
+   */
+    /*
+   * DOWNLOADS
+   */
+    /*
+   * ONLINE WARRANTY
+   */
+    /*
+   * CONTACT US
+   */
+    /*
+   * SEARCH FORM
+   */
+    /*
+   * SEARCH FORM
+   */
+    /*
+   * THERMOFILM LOGO
+   */
+    /*
+   * ADJUSTMENTS TO OMEGA GRID - MAKE 10px GUTTERS INTO 5px
+   */ }
+  body .logo-img {
+    margin-right: 20px; }
+  body.front {
+        /*
+     * SLIDER
+     */ }
+      body.front #zone-preface-wrapper .block {
+        padding: 0;
+        position: relative;
+        background: #1d1c21;
+        min-height: 370px;
+        margin-bottom: 0; }
+        body.front #zone-preface-wrapper .block .block-inner {
+          padding: 10px 5px 5px; }
+        body.front #zone-preface-wrapper .block h3,
+        body.front #zone-preface-wrapper .block .block-title {
+          font-family: FuturaBook;
+          font-weight: normal;
+          letter-spacing: 2px;
+          color: white;
+          border-bottom: 1px solid white;
+          padding-bottom: 5px;
+          line-height: 25px;
+          margin-bottom: 10px;
+          font-size: 17px; }
+        body.front #zone-preface-wrapper .block p {
+          color: white;
+          margin-bottom: 0; }
+          body.front #zone-preface-wrapper .block p:last-child {
+            margin: 0;
+            position: absolute;
+            bottom: 10px;
+            padding: 0;
+            width: 95%; }
+      body.front #zone-postscript-wrapper .block {
+        min-height: 300px;
+        margin-bottom: 0; }
+      body.front #zone-postscript-wrapper #block-views-ticker-block {
+        margin: 20px 0;
+        min-height: 0;
+        border-radius: 7px; }
+        body.front #zone-postscript-wrapper #block-views-ticker-block .liScroll-container {
+          width: 660px; }
+          body.front #zone-postscript-wrapper #block-views-ticker-block .liScroll-container .mask {
+            width: 660px;
+            top: 0; }
+            body.front #zone-postscript-wrapper #block-views-ticker-block .liScroll-container .mask ul {
+              width: 660px !important;
+              display: block; }
+              body.front #zone-postscript-wrapper #block-views-ticker-block .liScroll-container .mask ul li {
+                width: 660px !important;
+                white-space: nowrap;
+                display: block; }
+            body.front #zone-postscript-wrapper #block-views-ticker-block .liScroll-container .mask .views-liScroll-tick-field {
+              font-family: DotMatrix;
+              font-size: 20px;
+              color: white;
+              font-weight: normal;
+              margin-bottom: 10px; }
+    body.front #zone-slider-wrapper {
+      background: #999999; }
+      body.front #zone-slider-wrapper #zone-slider {
+        width: 100%;
+        max-width: 100%; }
+        body.front #zone-slider-wrapper #zone-slider #region-slider {
+          width: 100%;
+          margin: 0;
+          max-width: 100%; }
+  body #zone-branding-wrapper {
+    background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/topbg.png) center center no-repeat; }
+  body #zone-menu-wrapper {
+    background: #767676 url(/heatstrip/sites/all/themes/custom/heatstrip/img/nav_bg.jpg) center center repeat-x;
+    height: 30px; }
+  body #zone-footer-wrapper {
+    background: black url(/heatstrip/sites/all/themes/custom/heatstrip/img/footer_bg.png) bottom left repeat-x; }
+    body #zone-footer-wrapper .block {
+      min-height: 100px;
+      border-left: 1px dotted white;
+      padding: 0 10px;
+      margin-bottom: 10px; }
+      body #zone-footer-wrapper .block .block-title {
+        font-family: "DIN";
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        margin: 10px 0;
+        padding: 0; }
+        body #zone-footer-wrapper .block .menu li {
+          list-style: none;
+          margin: 2px 0;
+          padding: 0;
+          line-height: 14px; }
+          body #zone-footer-wrapper .block .menu li a {
+            color: white;
+            font-size: 10px;
+            text-decoration: none; }
+            body #zone-footer-wrapper .block .menu li a:hover {
+              text-decoration: underline; }
+    body #zone-footer-wrapper #block-block-16 {
+      min-height: 0;
+      border: none;
+      margin-top: -32px; }
+      body #zone-footer-wrapper #region-footer-fourth .block {
+        border-right: 1px dotted white; }
+          body #zone-footer-wrapper #region-footer-second .block .menu li {
+            list-style: none;
+            margin: 2px 0;
+            padding: 0;
+            line-height: 14px;
+            width: 50%;
+            float: left;
+            white-space: nowrap; }
+      body #zone-footer-wrapper #block-block-6 a {
+        width: 64px;
+        height: 24px;
+        display: inline-block;
+        margin-right: 3px;
+        margin-bottom: 3px; }
+        body #zone-footer-wrapper #block-block-6 a.facebook {
+          background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/footer_03.png) center center no-repeat;
+          background-size: 65px 24px; }
+        body #zone-footer-wrapper #block-block-6 a.youtube {
+          background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/footer_04.png) center center no-repeat;
+          background-size: 65px 24px; }
+        body #zone-footer-wrapper #block-block-6 a.pinterest {
+          background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/footer_05.jpg) center center no-repeat;
+          background-size: 65px 24px;
+          margin: 0; }
+      body.node-type-page #section-content #zone-content {
+        color: white;
+        background: #1d1c21;
+        padding-top: 0; }
+        body.node-type-page #section-content #zone-content .region-content-inner {
+          padding: 0 20px; }
+    body.page-2-col-sidebar #messages {
+      float: right;
+      width: 500px; }
+      body.page-2-col-sidebar #section-content #zone-content {
+        color: white;
+        background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/body-bg-content.png) -810px 0 repeat-y;
+        padding-top: 0; }
+        body.page-2-col-sidebar #section-content #zone-content .region-content-inner {
+          padding: 0 20px; }
+      body.context-faqs #section-content #zone-content {
+        background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/body-bg-content.png) -810px 0 repeat-y; }
+        body.context-faqs #section-content #zone-content .region-content-inner {
+          padding: 0; }
+      body.context-faqs .view-faqs .ui-tabs-nav {
+        float: left;
+        width: 160px;
+        margin-right: 20px;
+        padding-bottom: 20px; }
+      body.context-faqs .view-faqs .views-row {
+        float: left;
+        width: 460px;
+        margin-top: 10px;
+        padding: 1em 1.4em; }
+          body.page-testimonials #zone-content-wrapper #zone-content #region-content .region-content-inner {
+            padding: 20px; }
+          body.page-testimonials #zone-content-wrapper #zone-content #region-content .views-row {
+            float: left;
+            width: 166px;
+            height: 530px;
+            overflow: hidden;
+            margin-right: 20px; }
+        body.context-which-product-do-i-need #zone-content-wrapper #zone-content #region-content {
+          padding-top: 0; }
+          body.context-which-product-do-i-need #zone-content-wrapper #zone-content #region-content .region-content-inner {
+            padding: 20px; }
+        body.node-type-product #zone-content-wrapper #zone-content #region-sidebar-first {
+                    /*
+           * PRODUCT VIDEOS
+           */ }
+                body.node-type-product #zone-content-wrapper #zone-content #region-sidebar-first #block-views-video-block ul li span {
+                  top: 30px;
+                  left: 50px; }
+          body.page-gallery #zone-content-wrapper #zone-content #region-content .region-content-inner {
+            padding: 20px 34px; }
+          body.page-gallery #zone-content-wrapper #zone-content #region-content .views-row {
+            float: left;
+            width: 114px;
+            margin-right: 15px;
+            margin-bottom: 15px; }
+            body.page-gallery #zone-content-wrapper #zone-content #region-content .views-row:nth-child(5n) {
+              margin-right: 0; }
+    body.context-where-to-buy-international h1#page-title {
+      display: none; }
+    body.context-where-to-buy-international .view-header {
+      margin-bottom: 10px;
+      float: left;
+      width: 100%; }
+      body.context-where-to-buy-international .view-header .left {
+        height: 50px;
+        padding: 10px;
+        width: 200px;
+        margin-right: 10px;
+        background: #1d1c21;
+        float: left;
+        display: block; }
+      body.context-where-to-buy-international .view-header h1 {
+        font-family: "DIN";
+        font-size: 24px;
+        color: white;
+        font-weight: normal;
+        padding-top: 10px;
+        text-transform: uppercase;
+        height: 40px;
+        padding: 15px 10px;
+        width: 450px;
+        background: #1d1c21;
+        float: left;
+        margin: 0; }
+        body.context-where-to-buy-international .view-header h1 span {
+          color: #939598; }
+      body.context-where-to-buy-international #section-content #zone-content {
+                /*
+         * background:url(/heatstrip/sites/all/themes/custom/heatstrip/img/body-bg-content.png) -770px 0 repeat-y;
+         */
+        background: none; }
+        body.context-where-to-buy-international #section-content #zone-content .region-content-inner {
+          padding: 0; }
+    body.context-where-to-buy-international .views-row {
+      height: 195px;
+      margin-bottom: 10px;
+      float: left;
+      width: 100%; }
+      body.context-where-to-buy-international .views-row .group-left {
+        background: #1d1c21;
+        padding: 0 10px 10px;
+        width: 200px;
+        height: 175px;
+        margin-right: 10px;
+        margin-bottom: 0; }
+          body.context-where-to-buy-international .views-row .group-left .field-name-field-image .field-items {
+            height: 155px;
+            display: table; }
+            body.context-where-to-buy-international .views-row .group-left .field-name-field-image .field-items .field-item {
+              height: 155px;
+              display: table-cell;
+              vertical-align: middle; }
+      body.context-where-to-buy-international .views-row .group-right {
+        background: #1d1c21;
+        padding: 10px;
+        height: 175px;
+        width: 450px;
+        color: white; }
+        body.context-where-to-buy-international .views-row .group-right a {
+          color: white; }
+          body.context-where-to-buy-international .views-row .group-right a:hover {
+            color: #939598;
+            text-decoration: none; }
+        body.context-where-to-buy-international .views-row .group-right .field-name-country-and-title {
+          color: white;
+          font-size: 20px;
+          margin-bottom: 10px; }
+          body.context-where-to-buy-international .views-row .group-right .field-name-country-and-title p {
+            margin: 0; }
+          body.context-where-to-buy-international .views-row .group-right .field-name-country-and-title span {
+            color: #939598; }
+          body.context-where-to-buy-international .views-row .group-right .field-label-inline .field-label {
+            width: 110px; }
+        body.context-where-to-buy-international .views-row .group-right .field-name-field-phone,
+        body.context-where-to-buy-international .views-row .group-right .field-name-field-fax,
+        body.context-where-to-buy-international .views-row .group-right .field-name-field-email,
+        body.context-where-to-buy-international .views-row .group-right .field-name-international-dealer-email,
+        body.context-where-to-buy-international .views-row .group-right .field-name-field-website {
+          float: left;
+          margin-right: 20px;
+          min-width: 255px; }
+        body.context-where-to-buy-international .views-row .group-right .field {
+          margin-bottom: 5px; }
+        body.page-news #zone-content-wrapper #zone-content #region-content,
+        body.context-projects #zone-content-wrapper #zone-content #region-content,
+        body.context-downloads #zone-content-wrapper #zone-content #region-content,
+        body.page-search #zone-content-wrapper #zone-content #region-content {
+          color: white; }
+          body.page-news #zone-content-wrapper #zone-content #region-content .region-content-inner,
+          body.context-projects #zone-content-wrapper #zone-content #region-content .region-content-inner,
+          body.context-downloads #zone-content-wrapper #zone-content #region-content .region-content-inner,
+          body.page-search #zone-content-wrapper #zone-content #region-content .region-content-inner {
+            padding: 20px; }
+            body.context-projects #zone-content-wrapper #zone-content #region-content .ds-2col-stacked > .group-left {
+              width: 310px;
+              margin-right: 20px;
+              float: left; }
+            body.context-projects #zone-content-wrapper #zone-content #region-content .ds-2col-stacked > .group-right {
+              width: 330px;
+              float: right; }
+              body.context-projects #zone-content-wrapper #zone-content #region-content .ds-2col-stacked > .group-right a.colorbox {
+                display: block; }
+                body.context-projects #zone-content-wrapper #zone-content #region-content .ds-2col-stacked > .group-right .field-slideshow-pager li {
+                  margin: 6px 0 0; }
+                  body.context-projects #zone-content-wrapper #zone-content #region-content .ds-2col-stacked > .group-right .field-slideshow-pager li:nth-child(3n-1) {
+                    margin: 6px 6px 0; }
+            body.context-projects #zone-content-wrapper #zone-content #region-content .field-name-field-image .field-item:not(:first-child) {
+              display: none; }
+    body.context-projects #block-block-17 {
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+    body.context-projects #page-title {
+      padding-top: 30px; }
+    body.context-media #region-sidebar-first {
+      display: inline; }
+    body.context-media .views-row {
+      float: left;
+      width: 100px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      text-align: left; }
+      body.context-media .views-row:nth-of-type(5n) {
+        clear: left; }
+      body.context-media .views-row .views-field-field-image {
+        margin-bottom: 10px; }
+          body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row {
+            position: relative;
+            border: none; }
+            body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-title {
+              font-size: 15px;
+              font-family: "DIN";
+              border-bottom: 1px solid white;
+              padding-bottom: 5px; }
+            body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-title-1 {
+              display: block;
+              position: absolute;
+              top: 0;
+              right: 0; }
+              body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-title-1 a {
+                text-decoration: none;
+                color: white; }
+            body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-field-pdf {
+              display: none; }
+              body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-field-pdf ul {
+                margin: 10px 0; }
+                body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-field-pdf ul li {
+                  margin: 12px 0; }
+                  body.context-downloads #zone-content-wrapper #zone-content #region-content .views-row .views-field-field-pdf ul li a {
+                    color: white; }
+    body.context-downloads h3 {
+      color: #939598;
+      font-family: "DIN";
+      font-size: 20px;
+      text-transform: uppercase; }
+        body.context-online-warranty .webform-client-form #webform-component-product-type label,
+        body.context-online-warranty .webform-client-form #webform-component-product-name label,
+        body.context-online-warranty .webform-client-form #webform-component-country label {
+          float: left;
+          margin-right: 10px;
+          width: 110px; }
+      body.context-online-warranty .webform-client-form label {
+        float: left;
+        margin-right: 10px;
+        width: 100px; }
+      body.context-online-warranty .webform-client-form select {
+        background: #939598;
+        float: left; }
+      body.context-online-warranty .webform-client-form input[type="text"],
+      body.context-online-warranty .webform-client-form select {
+        border: 1px solid #939598; }
+      body.context-online-warranty .webform-client-form input[type="text"],
+      body.context-online-warranty .webform-client-form input[type="email"],
+      body.context-online-warranty .webform-client-form textarea {
+        background: none;
+        color: #939598;
+        width: 360px;
+        float: right; }
+      body.context-online-warranty .webform-client-form input[type="submit"] {
+        background: #939598;
+        color: black;
+        border-radius: 0;
+        border: none;
+        text-shadow: none;
+        padding: 10px 20px;
+        float: right;
+        margin: 0; }
+
+      body.context-contact-us .webform-client-form input[type="text"],
+      body.context-contact-us .webform-client-form input[type="email"],
+      body.context-contact-us .webform-client-form textarea {
+        width: 330px; }
+      body.context-contact-us .webform-client-form select {
+        background: #939598;
+        float: none;
+        width: auto; }
+      body.context-contact-us .webform-client-form input[type="text"],
+      body.context-contact-us .webform-client-form select {
+        border: 1px solid #939598; }
+      body.context-contact-us .webform-client-form input[type="submit"] {
+        background: #939598;
+        color: black;
+        border-radius: 0;
+        border: none;
+        text-shadow: none;
+        padding: 10px 20px;
+        float: right;
+        margin: 0; }
+        body.context-contact-us .webform-client-form #webform-component-contact-telephone-no input,
+        body.context-contact-us .webform-client-form #webform-component-serial-number input,
+        body.context-contact-us .webform-client-form #webform-component-place-of-purchase input,
+        body.context-contact-us .webform-client-form #webform-component-date-of-purchase input {
+          width: 525px; }
+  body #block-search-form {
+    position: absolute;
+    top: 2px;
+    right: 0; }
+    body #block-search-form input {
+      background: none;
+      border: none;
+      outline: none;
+      background: url(/heatstrip/sites/all/themes/custom/heatstrip/img/search.png) right center no-repeat #bebebe;
+      border: 1px solid #585858;
+      border-radius: 7px;
+      box-shadow: 2px 2px 2px #9c9c9c inset;
+      font-size: 13px;
+      height: 25px;
+      outline: medium none;
+      padding: 0 30px 0 10px;
+      width: 130px;
+      float: right; }
+    body #block-search-form input[type="submit"] {
+      visibility: hidden; }
+    body #block-search-form .form-type-textfield {
+      margin: 0; }
+  body #block-search-form {
+    margin: 0;
+    position: absolute;top:9px;right:50px; }
+  body #block-block-15 {
+    position: absolute;
+    right: 0;
+    top: 18px; }
+    body #block-block-15 p {
+      text-align: right !important;
+      margin: 0; }
+  body.front {
+        /*
+     * #zone-preface {
+     * padding:0 20px;
+     * .grid-3 {
+     * margin-left:5px;
+     * margin-right:5px;
+     * }
+     * }
+     */ }
+

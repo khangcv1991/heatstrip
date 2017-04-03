@@ -1,0 +1,2 @@
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape){html,body{height:100%;margin:0;}#page{display:table;width:100%;}html>body #page{height:100%;}*:first-child+html #page{height:auto;}.section{display:table-row;}html>body .section-content{height:100%;}*:first-child+html body .section-content{height:auto;}
+}

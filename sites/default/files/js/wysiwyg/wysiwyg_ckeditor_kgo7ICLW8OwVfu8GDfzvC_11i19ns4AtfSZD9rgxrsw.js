@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/heatstrip/sites/all/libraries/ckeditor/';

@@ -1,0 +1,31 @@
+name = Webtribe Wysiwyg
+description = Quick setup for wysiwyg
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = webtribe_wysiwyg
+dependencies[] = features
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+dependencies[] = strongarm
+dependencies[] = wysiwyg
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[variable][] = imce_profiles
+features[variable][] = imce_roles_profiles
+features[variable][] = imce_settings_absurls
+features[variable][] = imce_settings_disable_private
+features[variable][] = imce_settings_replace
+features[variable][] = imce_settings_textarea
+features[variable][] = imce_settings_thumb_method
+features[wysiwyg][] = filtered_html
+features[wysiwyg][] = full_html
+
+
+; Information added by drush on 2014-03-05
+version = "unknown"
+project = "webtribe_wysiwyg"
+datestamp = "1394012922"
+

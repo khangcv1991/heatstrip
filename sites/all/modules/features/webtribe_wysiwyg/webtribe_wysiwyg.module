@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Webtribe Wysiwyg feature.
+ */
+
+include_once 'webtribe_wysiwyg.features.inc';

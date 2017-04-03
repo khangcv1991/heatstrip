@@ -1,0 +1,423 @@
+/*
+  This file contains the basic logic for nice menus, and should not be
+  edited.  To customize the menus, it's recommended to create a custom CSS
+  file using nice_menus_default.css as a template, then configure the module
+  to use your custom CSS file (this is done in the global settings tab of
+  the theme administration.)
+*/
+
+/* Below should fix menu being a few pixels away in some themes, and menus disappearing behind other stuff. */
+.block-nice-menus {
+    line-height: normal;
+    z-index: 10;
+}
+
+ul.nice-menu,
+ul.nice-menu ul {
+    z-index: 5;
+    position: relative;
+}
+
+ul.nice-menu li {
+    position: relative;
+}
+
+ul.nice-menu a {
+    display: block;
+    /*Default to Blue, but override as necessary*/
+    color: #027ac6;
+}
+
+ul.nice-menu ul,
+    /* For Garland header. */
+#header-region ul.nice-menu ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+ul.nice-menu li.over ul {
+    visibility: visible;
+}
+
+ul.nice-menu ul li {
+    display: block;
+}
+
+ul.nice-menu:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Show submenus when over their parents. */
+ul.nice-menu li:hover ul,
+ul.nice-menu li.menuparent li:hover ul,
+ul.nice-menu li.menuparent li.menuparent li:hover ul,
+ul.nice-menu li.menuparent li.menuparent li.menuparent li:hover ul,
+ul.nice-menu li.over ul,
+ul.nice-menu li.menuparent li.over ul,
+ul.nice-menu li.menuparent li.menuparent li.over ul,
+ul.nice-menu li.menuparent li.menuparent li.menuparent li.over ul,
+    /* Repeat all this stuff just for Garland headers. */
+#header-region ul.nice-menu li:hover ul,
+#header-region ul.nice-menu li.menuparent li:hover ul,
+#header-region ul.nice-menu li.menuparent li.menuparent li:hover ul,
+#header-region ul.nice-menu li.over ul,
+#header-region ul.nice-menu li.menuparent li.over ul,
+#header-region ul.nice-menu li.menuparent li.menuparent li.over ul {
+    visibility: visible;
+}
+
+/* Hide sub-menus initially. */
+ul.nice-menu li:hover ul ul,
+ul.nice-menu li:hover ul ul ul,
+ul.nice-menu li:hover li:hover ul ul,
+ul.nice-menu li:hover li:hover ul ul ul,
+ul.nice-menu li:hover li:hover li:hover ul ul,
+ul.nice-menu li:hover li:hover li:hover ul ul ul,
+ul.nice-menu li.over ul ul,
+ul.nice-menu li.over ul ul ul,
+ul.nice-menu li.over li.over ul ul,
+ul.nice-menu li.over li.over ul ul ul,
+ul.nice-menu li.over li.over li.over ul ul,
+ul.nice-menu li.over li.over li.over ul ul ul,
+    /* Repeat all this stuff just for Garland headers. */
+#header-region ul.nice-menu li:hover ul ul,
+#header-region ul.nice-menu li:hover ul ul ul,
+#header-region ul.nice-menu li:hover li:hover ul ul,
+#header-region ul.nice-menu li:hover li:hover ul ul ul,
+#header-region ul.nice-menu li:hover li:hover li:hover ul ul,
+#header-region ul.nice-menu li:hover li:hover li:hover ul ul ul,
+#header-region ul.nice-menu li.over ul ul,
+#header-region ul.nice-menu li.over ul ul ul,
+#header-region ul.nice-menu li.over li.over ul ul,
+#header-region ul.nice-menu li.over li.over ul ul ul,
+#header-region ul.nice-menu li.over li.over li.over ul ul,
+#header-region ul.nice-menu li.over li.over li.over ul ul ul {
+    visibility: hidden;
+}
+
+/***************
+ IE 6 Fixes
+***************/
+
+/* Iframe to fix z-index bug when menu hovers over <select> fields. */
+ul.nice-menu li.menuparent ul,
+    /* For Garland header. */
+#header-region ul.nice-menu li.menuparent ul {
+    overflow: visible !important;
+}
+
+ul.nice-menu li.menuparent ul iframe,
+    /* For Garland header. */
+#header-region ul.nice-menu li.menuparent ul iframe {
+    display: none;
+    display /**/: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: mask();
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body .homepage #block-nice-menus-1 {
+        display: block !important;
+    }
+
+    .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+        height: 440px;
+    }
+
+    body #block-search-form {
+        background: transparent url(/sites/all/themes/custom/heatstrip/logo-txt.png) center top no-repeat;
+        background-size: 100%;
+        padding-top: 0px !important;
+        text-align: center;
+        padding-left: 0 !important;
+        margin: 0 !important;
+        background: #333;
+    }
+
+    body #block-search-form input#edit-search-block-form--2 {
+        width: 165px;
+    }
+
+    body .homepage .content {
+        position: relative;
+    }
+
+    body .homepage #news {
+        position: absolute;
+        top: 65px;
+        right: 0;
+    }
+
+    footer .social li {
+        width: 25%;
+        float: left;
+    }
+
+    footer .social li img {
+        text-indent: initial !important;
+    }
+
+    body.front #zone-postscript-wrapper #block-views-ticker-block {
+        display: none;
+    }
+
+    body #zone-footer-wrapper #region-footer-fourth .block {
+        border-right: none !important;
+    }
+
+    footer .cd-form h2 {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 200;
+        padding-top: 10px;
+    }
+
+    footer .cd-form .cd-email {
+        width: 200px;
+        margin-right: 10px;
+    }
+
+    body.front #zone-preface-wrapper .block h3 a, body.front #zone-preface-wrapper .block .block-title a {
+        font-size: 16px;
+    }
+
+    body .block p img {
+        width: 100% !important;
+    }
+
+    body .block #news {
+        width: initial !important;
+    }
+
+    .block-projects-block .field-content img {
+        width: 100%;
+    }
+
+    .block-news-block .field-content img {
+        width: 100%;
+    }
+
+    body.front #zone-preface-wrapper .block h3 {
+        border-bottom: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+    .homepage .container-12 .grid-3 {
+        width: 160px;
+        width: 47%;
+        float: left;
+    }
+
+    body.front .homepage #zone-preface-wrapper .block {
+        margin-bottom: 20px;
+    }
+
+    body .block p img {
+        width: 100% !important;
+    }
+
+    body .block #news {
+        width: initial !important;
+    }
+
+    body .homepage .block {
+        position: relative;
+    }
+
+    body .homepage #news {
+        position: absolute;
+        top: 110px;
+        right: 0;
+    }
+
+    body.front #zone-preface-wrapper .block h3 {
+        border-bottom: none !important;
+    }
+
+    body.front #zone-preface-wrapper .block {
+        min-height: 325px;
+    }
+
+    body.front #zone-preface-wrapper .block.even {
+        min-height: 325px;
+    }
+
+    body .block p img {
+        width: 100% !important;
+        height: 286px !important;
+    }
+
+    body .block.even p img {
+        width: 100% !important;
+        height: 286px !important;
+    }
+
+    body .homepage #news {
+        position: absolute;
+        top: -300px;
+        right: 0;
+        z-index: 99;
+        width: 94px !important;
+        height: initial !important;
+    }
+
+    body.front #zone-preface-wrapper .block .block-inner {
+        padding: 10px 5px 5px;
+        min-height: 354px;
+    }
+
+    .block-projects-block .field-content img {
+        width: 100%;
+    }
+
+    .block-news-block .field-content img {
+        width: 100%;
+    }
+
+    body.front #zone-preface-wrapper .block h3 {
+        border-bottom: none !important;
+    }
+
+    body.front #zone-postscript-wrapper #block-views-ticker-block {
+        display: none;
+    }
+
+    footer .social li {
+        width: 25%;
+        float: left;
+    }
+
+    footer .social li img {
+        text-indent: initial !important;
+    }
+
+    footer .cd-form h2 {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 200;
+        padding-top: 10px;
+    }
+
+    footer .cd-form .cd-email {
+        width: 200px;
+        margin-right: 10px;
+    }
+
+    body #zone-footer-wrapper #region-footer-fourth .block {
+        border-right: 1px dotted white;
+        border: none !important;
+    }
+
+    body #zone-footer-wrapper #region-footer-third .block {
+        border-right: 1px dotted white;
+        border: none !important;
+    }
+
+    body #zone-footer-wrapper #region-footer-second .block {
+        border-right: 1px dotted white;
+        border: none !important;
+    }
+
+    body #zone-footer-wrapper .block {
+        border: none !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1030px) {
+    body {
+        width: 1440px;
+    }
+
+    .block-nice-menus ul {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    div#block-nice-menus-1 {
+        width: 1440px;
+        margin: auto !important;
+    }
+
+    section#section-content {
+        width: 1440px;
+        margin: auto !important;
+    }
+
+    .region-branding .block img {
+        height: initial !important;
+        margin-right: 15px;
+    }
+
+    .block-nice-menus ul {
+        position: relative;
+        width: 100%;
+    }
+
+    body {
+
+    }
+
+    .homepage .container-12 {
+        width: 1440px;
+    }
+
+    .homepage .container-12 .grid-3 {
+        width: 24.3%;
+    }
+
+    body #block-search-form {
+        margin: 0;
+        position: absolute;
+        right: 20px;
+        top: 8px;
+    }
+
+    body.front .homepage #zone-preface-wrapper .block {
+        position: relative !important;
+    }
+
+    body.front .homepage #zone-preface-wrapper .block.even #content {
+        position: initial !important;
+    }
+
+    body.front .homepage #zone-preface-wrapper .block #content {
+        position: initial !important;
+    }
+
+    body.front .homepage #zone-preface-wrapper .block {
+        min-height: 335px;
+    }
+
+    .homepage .content h3 a {
+        font-size: 20px !important;
+        display: inline-block;
+        padding: 10px 5px;
+    }
+
+    body .block p img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    body .block #news {
+        width: initial !important;
+        height: initial !important;
+    }
+
+    body.front .homepage #zone-preface-wrapper .block #content p img#news {
+        top: -280px;
+        right: 5px;
+    }
+}

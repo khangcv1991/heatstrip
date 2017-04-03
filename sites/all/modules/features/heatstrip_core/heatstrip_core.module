@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HeatStrip Core feature.
+ */
+
+include_once 'heatstrip_core.features.inc';

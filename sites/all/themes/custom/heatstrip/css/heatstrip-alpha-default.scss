@@ -1,0 +1,10 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/* sticky footer */
+html, body {height: 100%; margin: 0;}
+#page {display: table; width: 100%;}
+html>/**/body #page {height: 100%;}
+*:first-child+html #page {height: auto;}
+.section {display: table-row;}
+html>/**/body .section-content {height: 100%;}
+*:first-child+html body .section-content {height: auto;}

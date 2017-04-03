@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Webtribe User feature.
+ */
+
+include_once 'webtribe_user.features.inc';
