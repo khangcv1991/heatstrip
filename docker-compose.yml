@@ -2,11 +2,14 @@ version: '2'
 
 services:
   drupal:
+#    restart: unless-stopped
     image: drupal:8.2-apache
     ports:
       - 8004:80
     volumes:
       - ./:/var/www/html
+    links:
+      - mysqldb:mysqldb
   mysqldb:
 #    restart: unless-stopped
     image: mysql:5.7 # or mariadb:10
