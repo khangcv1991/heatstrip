@@ -345,6 +345,15 @@ ul.nice-menu li.menuparent ul iframe,
 }
 
 @media screen and (min-width: 1300px) {
+    .top-header > ul > li:first-child > a > img {
+        left: 14px !important;
+
+    }
+    .top-header ul li span img {
+        position: absolute;
+        right: 73px !important;
+        top: 15px;
+    }
     div#block-nice-menus-1 {
         width: 1440px;
         margin: auto !important;
@@ -406,18 +415,16 @@ ul.nice-menu li.menuparent ul iframe,
         padding: 10px 5px;
     }
 
-    body .block p img {
+    body .block img {
         width: 100% !important;
         height: 100% !important;
     }
 
-    body .block #news {
-        width: initial !important;
-        height: initial !important;
-    }
 
     body.front .homepage #zone-preface-wrapper .block #content p img#news {
-        top: -280px;
+        top: 0px;
         right: 5px;
+        width: initial !important;
+        height: initial !important;
     }
 }
