@@ -245,7 +245,13 @@
         }
 
         #kh_right_logo_thermo > img {
-            height: 72px !important;
+            height: 67px !important;
+        }
+        .grid-3.region.newsletter {
+            width: 20% !important;
+        }
+        .top-header >ul >li:nth-child(2) > a > img {
+            margin-top: 10px;
         }
     </style>
     <script type="text/javascript">
