@@ -173,7 +173,7 @@
         .top-header {
             overflow: hidden;
             background: #969696;
-            height: 100px;
+            height: 80px;
         }
 
         .top-header ul {
@@ -230,6 +230,7 @@
         #whitbox_background > a > img {
             position: relative;
             width: 100% !important;
+            margin-left: 159px;
         }
 
         #kh_bg_20170405 {
@@ -245,13 +246,18 @@
         }
 
         #kh_right_logo_thermo > img {
-            height: 67px !important;
+            height: 52px !important;
+
         }
         .grid-3.region.newsletter {
             width: 20% !important;
         }
         .top-header >ul >li:nth-child(2) > a > img {
             margin-top: 10px;
+        }
+
+        div#region-footer-third {
+            margin-left: 29px;
         }
     </style>
     <script type="text/javascript">

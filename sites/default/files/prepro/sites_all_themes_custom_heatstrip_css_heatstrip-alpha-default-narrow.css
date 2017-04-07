@@ -6,6 +6,16 @@
  * *  apply to the normal and widescreen layouts. You may override these styles in the normal
  * *  and widescreen CSS files as appropriate.
  */
+div#region-footer-third {
+    margin-left: 10px;
+
+}
+
+section#block-block-6 {
+    /* padding-right: 9px; */
+    margin-left: 12px;
+}
+
 div #block-block-17 {
     /* float: left; */
     margin-right: 30% !important;
@@ -261,13 +271,13 @@ body #zone-footer-wrapper {
 body #zone-footer-wrapper .block {
     min-height: 100px;
     border-left: 1px dotted white;
-    padding: 0 10px;
+    padding: 0 28px;
     margin-bottom: 10px;
 
 }
 
 body #zone-footer-wrapper .block ul.social {
-    width: 63%;
+    width: 85%;
 }
 
 body #zone-footer-wrapper .block .block-title {
