@@ -183,7 +183,7 @@
         .top-header ul li {
             list-style: none;
             float: left;
-            width: 33.3333%;
+            width: 30.3333%;
             position: relative;
         }
 
@@ -249,18 +249,25 @@
             height: 52px !important;
 
         }
+
         .grid-3.region.newsletter {
             width: 20% !important;
         }
-        .top-header >ul >li:nth-child(2) > a > img {
+
+        .top-header > ul > li:nth-child(2) > a > img {
             margin-top: 10px;
         }
 
         div#region-footer-third {
             margin-left: 29px;
         }
+
         div#region-footer-first {
             margin-left: -12px;
+        }
+
+        li#kh-logo-centre {
+            padding-left: 9%;
         }
     </style>
     <script type="text/javascript">
@@ -269,7 +276,7 @@
                 $('#zone-footer').prepend('<div class="grid-3 region newsletter"><form class="cd-form"><h2>Newsletter signup</h2><input type="email" id="cd-email" class="cd-email" name="cd-email" placeholder="Enter your email address"><input type="submit" class="cd-submit" value="Submit"><div class="cd-loading"></div></form></div>');
                 $('.region-footer-fourth').after($('.region-footer-first'));
                 $('body .responsive-menus.responsified .responsive-menus-simple > li:last-child').after($(' #block-search-form'));
-                $('#section-header').prepend('<div class="top-header"><ul><li id="kh_logo_left"><a href="#"><img src="/sites/all/themes/custom/heatstrip/HeatstripLogo.png"/></a></li><li><a href="#"><img src="/sites/all/themes/custom/heatstrip/HeatingWithStyle.png"/></a></li><li id="whitbox_background"><a href="#"><img src="/sites/all/themes/custom/heatstrip/WhiteBox.png"/></a><span id="kh_right_logo_thermo"><img src="/sites/all/themes/custom/heatstrip/ThermofilmLogo.png"/></span></li> </ul> <div id="kh_bg_20170405"> </div></div>')
+                $('#section-header').prepend('<div class="top-header"><ul><li id="kh_logo_left"><a href="#"><img src="/sites/all/themes/custom/heatstrip/HeatstripLogo.png"/></a></li><li id="kh-logo-centre"><a href="#"><img src="/sites/all/themes/custom/heatstrip/HeatingWithStyle.png"/></a></li><li id="whitbox_background"><a href="#"><img src="/sites/all/themes/custom/heatstrip/WhiteBox.png"/></a><span id="kh_right_logo_thermo"><img src="/sites/all/themes/custom/heatstrip/ThermofilmLogo.png"/></span></li> </ul> <div id="kh_bg_20170405"> </div></div>')
                 //  $('#section-header').prepend('<div class="top-header"><ul><li><a href="#"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/HeatstripLogo.png"/></a></li><li><a href="#"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/HeatingWithStyle.png"/></a></li><li><a href="#"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/WhiteBox.png"/></a></li> <li></li></ul> <div id="kh-20170405"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/ThermofilmLogo.png"/></div></div>')
 //                $('#section-header').prepend('<div class="top-header"> <div id="header-left"><a href="#"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/HeatstripLogo.png"/></a></div><div><a href="#"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/HeatingWithStyle.png"/></a></div><div id="kh-header-background"><a href="#"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/WhiteBox.png"/></a></div><div id="header-right"><img src="http://localhost/heatstrip/sites/all/themes/custom/heatstrip/ThermofilmLogo.png"/></div></div>')
             });
