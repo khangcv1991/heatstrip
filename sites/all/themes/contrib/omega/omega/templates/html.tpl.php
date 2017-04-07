@@ -230,7 +230,7 @@
         #whitbox_background > a > img {
             position: relative;
             width: 100% !important;
-            margin-left: 159px;
+            margin-left: 159px !important;
         }
 
         #kh_bg_20170405 {
@@ -258,6 +258,9 @@
 
         div#region-footer-third {
             margin-left: 29px;
+        }
+        div#region-footer-first {
+            margin-left: -12px;
         }
     </style>
     <script type="text/javascript">
